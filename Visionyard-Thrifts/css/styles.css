@@ -1,0 +1,185 @@
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}
+h1{
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.5;
+}
+h3{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+/*Navigation Bar*/
+.navbar {
+    padding:0 0 4.5rem;
+}
+.navbar-brand {
+    font-family: 'Amatic SC';
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.nav-item{
+    padding: 0 18px; /*0 padding top and bottom, 18px padding left and right(padding on the left and right is to center it. otherwise just using a left padding or right padding makes it off,- does not center it.)*/
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+/* Title */
+#title{
+    background-color: #0CA4BA;
+    color: aliceblue;
+    text-align: left;
+    padding: 3% 15% 5%;
+}
+
+#title img {
+    width: 80%;
+}
+#title span {
+    color: #086D7C ;
+}
+/* Download button */
+.download-button{
+    margin: 5% 3% 5% 0; /*made it align with the texts*/
+}
+
+/* features section */
+#features{
+    background-color: #E4FBFF;
+}
+.features-padding{
+    padding: 7% 15%;
+}
+.icon{
+    padding: 5%;
+    color:#0CA4BA;
+}
+.icon:hover{
+    color:rgb(80, 228, 228);
+    cursor: pointer;
+}
+.feature-title{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.feature-text{
+    color: #8aa1a5;
+}
+.ft-txt{
+    padding-top: 11%;
+}
+/* Fit recommendation */
+#recommendation{
+    padding: 4% 15%; 
+    color: aliceblue;
+    background-color: #a1dae4;
+}
+#recommendation img{
+    border-radius: 5%;
+    width: 80%;
+}
+#recommendation h3{
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+}
+.pic{
+    padding: 5% 0;
+}
+/* Testimonials */
+#testimonial{
+    background-color:#E4FBFF ;
+
+}
+#testimonial h3{
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 400;
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+.testimonial-text{
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.testimonial-image{
+    margin: 20px;
+    border-radius: 100%;
+    border: 5px solid #086D7C;
+    width: 11%;
+}
+.testimonial-text1{
+    padding: 7% 15%;
+}
+/* Pricing */
+#pricing{
+    padding: 100px;
+    background-color: #a1dae4;
+    color: aliceblue;  
+    font-weight: 700; 
+}
+
+.price-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.price-h3{
+    font-family: 'Amatic SC';
+    font-weight: 700;
+    font-size: 2rem;
+}
+.pricing-column {
+    /* the shorthand for the padding is 3% from the top and bottom||| 2% from the left and right */
+    padding: 3% 2%;
+}
+/* to align the sign-up buttons */
+.class-a{
+    margin-bottom: 32%;  
+}
+.class-d{
+    margin-bottom: 19%;
+}
+/* CALL TO ACTION */
+#cta{
+    background-color: #0CA4BA;
+    color: aliceblue;
+    
+    padding: 7% 15%;
+}
+#cta h3{
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Footer section */
+#footer{
+    background-color: #a1dae4;
+    padding: 7% 15%;
+}
+    
+.foot{
+    margin: 20px 10px;
+    color:#0CA4BA ;
+}
+
+
+
+
+/* The code in the media query(max-width: 1028ps) will only be carried out if the the viewport/ screen size is less than or equal to 1028px */
+@media (max-width: 1028px){
+
+    #title{
+        text-align: center;
+    }
+
+}
